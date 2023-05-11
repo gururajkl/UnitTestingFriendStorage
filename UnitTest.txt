@@ -25,3 +25,12 @@ NUnit(Complete rewrite of JUnit for .NET),
 XUnit(Written by the original inventor of the NUnit v2).
 
 * To run xunit in vs i installed xunit, xunit.runner.visualstudio, Microsoft.NET.Test.Sdk
+
+* In xunit we use [Fact] attribute instead of [TestMethod()]
+
+* To pass any parameter we use [Theory] attribute and to pass the data we can use [InlineData]
+attribute, the order should be same as in the parameter of the test method
+ex: [InlineData(a = 1, b = 2, c = 3)]
+	public void Test(int a, int b, int c) { }
+
+* A cube is important in the xunit test Assign, Act, Assert
