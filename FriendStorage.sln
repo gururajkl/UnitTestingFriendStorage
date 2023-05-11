@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.UI", "FriendStorage.UI\FriendStorage.UI.csproj", "{D32D4E43-79CA-4FD3-B920-13957F9060E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.DataAccess", "FriendStorage.DataAccess\FriendStorage.DataAccess.csproj", "{ED3B0A8C-BCE2-427B-8DA8-AC7F1388DD2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.Model", "FriendStorage.Model\FriendStorage.Model.csproj", "{67EB7C6D-721A-4C84-991D-594BD263A0ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentations", "Documentations", "{0A9358CB-4922-490F-92A5-C5DF4F9C0FC3}"
+	ProjectSection(SolutionItems) = preProject
+		UnitTest.txt = UnitTest.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

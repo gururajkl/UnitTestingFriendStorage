@@ -1,0 +1,21 @@
+A small automated test coded by the programmer, that verifies wheather or not a small piece 
+of production code - a unit - works as expected in isolation.
+
+Effective unit tests are F.I.R.S.T
+
+F -> Fast to run them frequently.
+
+I -> Unit tests should be independent of each other, meaning they should not 
+rely on the state or execution of other tests. Each test should be able to run in isolation.
+
+R -> Unit tests should produce the same results every time they are run, regardless 
+of the environment or order of execution. They should not have any external dependencies 
+that can introduce variability.
+
+S ->  Unit tests should have a boolean output (pass/fail) and should automatically assert 
+their own results. A test should be able to determine its success or failure without manual 
+intervention.
+
+T -> Unit tests should be written in a timely manner, preferably before the code 
+being tested is implemented. They should be an integral part of the development process 
+and contribute to the overall quality of the code.
