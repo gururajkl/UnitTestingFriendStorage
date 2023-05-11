@@ -19,3 +19,9 @@ intervention.
 T -> Unit tests should be written in a timely manner, preferably before the code 
 being tested is implemented. They should be an integral part of the development process 
 and contribute to the overall quality of the code.
+
+SOME OF THE FRAMEWORKS AVAILABLE ARE -> MSTest (Comes with VS), 
+NUnit(Complete rewrite of JUnit for .NET), 
+XUnit(Written by the original inventor of the NUnit v2).
+
+* To run xunit in vs i installed xunit, xunit.runner.visualstudio, Microsoft.NET.Test.Sdk
