@@ -9,7 +9,7 @@ namespace FriendStorage.UI
         protected override void OnStartup(StartupEventArgs e)
         {
             MainWindow mainWindow = new MainWindow(new MainViewModel());
-            mainWindow.Show();  
+            mainWindow.Show();
         }
     }
 }

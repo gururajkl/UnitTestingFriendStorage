@@ -9,7 +9,7 @@ namespace FriendStorage.UI.ViewModel
 
         public MainViewModel()
         {
-            NavigationViewModel = new NavigationViewModel();
+            //NavigationViewModel = new NavigationViewModel();
         }
 
         public void Load()
