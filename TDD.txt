@@ -4,3 +4,6 @@ GREEN - Implement the code to make the test pass
 REFACTOR -> Clean up your code
 
 Cycle the above steps to follow the TDD
+
+USING SPIKES IN TDD
+* A spike is an experiment without tests to ensure that your idea will work

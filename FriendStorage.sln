@@ -11,10 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.Model", "Frie
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentations", "Documentations", "{0A9358CB-4922-490F-92A5-C5DF4F9C0FC3}"
 	ProjectSection(SolutionItems) = preProject
+		TDD.txt = TDD.txt
 		UnitTest.txt = UnitTest.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.UITests", "FriendStorage.UITests\FriendStorage.UITests.csproj", "{8AEFDA26-B01E-4B59-ABF6-048E1B615CB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FriendStorage.UITests", "FriendStorage.UITests\FriendStorage.UITests.csproj", "{8AEFDA26-B01E-4B59-ABF6-048E1B615CB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
