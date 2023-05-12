@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FriendStorage.DataAccess;
+using FriendStorage.UI.DataProvider;
+using System;
 
 namespace FriendStorage.UI.ViewModel
 {
@@ -9,7 +11,8 @@ namespace FriendStorage.UI.ViewModel
 
         public MainViewModel()
         {
-            //NavigationViewModel = new NavigationViewModel();
+            NavigationViewModel = new NavigationViewModel(new NavigationDataProvider(
+                () => new FileDataService()));
         }
 
         public void Load()
