@@ -1,0 +1,6 @@
+Test Driven Development -> Always follows Red, Green, Refactor
+RED - Writing a failing test
+GREEN - Implement the code to make the test pass
+REFACTOR -> Clean up your code
+
+Cycle the above steps to follow the TDD
