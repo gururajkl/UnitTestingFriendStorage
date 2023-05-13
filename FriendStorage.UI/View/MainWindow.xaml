@@ -13,10 +13,6 @@
         Background="Black"
         Icon="..\FriendStorageIcon.png">
 
-    <Window.DataContext>
-        <viewmodel:MainViewModel />
-    </Window.DataContext>
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />

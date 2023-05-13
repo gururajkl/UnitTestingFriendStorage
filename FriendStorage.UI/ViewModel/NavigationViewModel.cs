@@ -4,7 +4,12 @@ using System.Collections.ObjectModel;
 
 namespace FriendStorage.UI.ViewModel
 {
-    public class NavigationViewModel : ViewModelBase
+    public interface INavigationViewModel
+    {
+        void Load();
+    }
+
+    public class NavigationViewModel : ViewModelBase, INavigationViewModel
     {
         public ObservableCollection<LookUpItem> Friends { get; set; }
         private readonly INavigationDataProvider navigationDataProvider;

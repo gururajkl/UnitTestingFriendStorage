@@ -7,12 +7,11 @@ namespace FriendStorage.UI.ViewModel
     public class MainViewModel : ViewModelBase
     {
         public string Copyright => $"Copyrights by Friends @{DateTime.Now.Year}";
-        public NavigationViewModel NavigationViewModel { get; set; }
+        public INavigationViewModel NavigationViewModel { get; set; }
 
-        public MainViewModel()
+        public MainViewModel(INavigationViewModel navigationViewModel)
         {
-            NavigationViewModel = new NavigationViewModel(new NavigationDataProvider(
-                () => new FileDataService()));
+            NavigationViewModel = navigationViewModel;
         }
 
         public void Load()
