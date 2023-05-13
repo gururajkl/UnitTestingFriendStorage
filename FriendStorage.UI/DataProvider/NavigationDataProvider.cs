@@ -14,7 +14,7 @@ namespace FriendStorage.UI.DataProvider
             this.dataServiceCreator = dataServiceCreator;
         }
 
-        public IEnumerable<Friend> GetAllFriends()
+        public IEnumerable<LookUpItem> GetAllFriends()
         {
             using (var dataService = dataServiceCreator())
                 return dataService.GetAllFriends();

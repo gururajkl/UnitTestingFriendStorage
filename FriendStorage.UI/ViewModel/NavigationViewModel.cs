@@ -6,12 +6,12 @@ namespace FriendStorage.UI.ViewModel
 {
     public class NavigationViewModel : ViewModelBase
     {
-        public ObservableCollection<Friend> Friends { get; set; }
+        public ObservableCollection<LookUpItem> Friends { get; set; }
         private readonly INavigationDataProvider navigationDataProvider;
 
         public NavigationViewModel(INavigationDataProvider navigationDataProvider)
         {
-            Friends = new ObservableCollection<Friend>();
+            Friends = new ObservableCollection<LookUpItem>();
             this.navigationDataProvider = navigationDataProvider;
         }
 

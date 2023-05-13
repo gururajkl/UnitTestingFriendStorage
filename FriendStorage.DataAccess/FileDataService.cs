@@ -56,9 +56,13 @@ namespace FriendStorage.DataAccess
             SaveToFile(friends);
         }
 
-        public IEnumerable<Friend> GetAllFriends()
+        public IEnumerable<LookUpItem> GetAllFriends()
         {
-            return ReadFromFile();
+            return ReadFromFile().Select(f => new LookUpItem()
+            {
+                Id = f.Id,
+                DisplayMember = $"{f.FirstName} {f.LastName}"
+            });
         }
 
         public void Dispose()
